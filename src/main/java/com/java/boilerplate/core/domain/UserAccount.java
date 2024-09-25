@@ -9,7 +9,7 @@ import lombok.Data;
 @Builder
 @Data
 public class UserAccount {
-  private String id;
+  private String userId;
   private Set<UserTransaction> userTransactions;
 
   @Override
@@ -17,12 +17,12 @@ public class UserAccount {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     UserAccount user = (UserAccount) o;
-    return Objects.equals(id, user.id) && Objects.equals(userTransactions, user.userTransactions);
+    return Objects.equals(userId, user.userId) && Objects.equals(userTransactions, user.userTransactions);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, userTransactions);
+    return Objects.hash(userId, userTransactions);
   }
 
   public BigDecimal getBalance() {

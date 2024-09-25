@@ -33,15 +33,15 @@ public class UserAccountServiceImpl implements UserAccountService {
 
   private static UserAccount getUserAccount() {
     return UserAccount.builder()
-        .id(UUID.randomUUID().toString())
+        .userId("76cb94ca-5e89-499a-8c04-4294a04eb900")
         .userTransactions(
             Set.of(
                 UserTransaction.builder()
-                    .transactionId(UUID.randomUUID().toString())
+                    .transactionId("1e33d2fa-0786-4bac-b625-1863fc21a335")
                     .amount(BigDecimal.TEN)
                     .build(),
                 UserTransaction.builder()
-                    .transactionId(UUID.randomUUID().toString())
+                    .transactionId("5e563fe6-0b98-4a17-9515-39b335ec86b1")
                     .amount(new BigDecimal(-1))
                     .build())).build();
   }

@@ -1,12 +1,15 @@
 package com.java.boilerplate.infrastructure.dto.request;
 
 import java.math.BigDecimal;
-import lombok.Builder;
-import lombok.Data;
+
+import lombok.*;
+
 @Builder
-@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
 public class UserTransferRequest {
-  private final String receiverId;
-  private final String senderId;
-  private final BigDecimal amount;
+  private String receiverId;
+  private String senderId;
+  private BigDecimal amount;
 }
