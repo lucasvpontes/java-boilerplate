@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Getter
  public class UserTransaction {
-  private String userId;
+  private String receiverId;
   private BigDecimal amount;
   private Instant executedTime;
   private String transactionId;

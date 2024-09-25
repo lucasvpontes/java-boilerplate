@@ -1,4 +1,4 @@
-package com.java.boilerplate.infrastructure.controller.transactions.dto.response;
+package com.java.boilerplate.infrastructure.controller.dto.response;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -10,7 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 public class UserTransactionResponse {
-  private String userId;
+  private String receiverId;
   private BigDecimal amount;
   private String executedTime;
   private String transactionId;

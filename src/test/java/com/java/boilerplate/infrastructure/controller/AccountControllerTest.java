@@ -2,8 +2,6 @@ package com.java.boilerplate.infrastructure.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.java.boilerplate.core.domain.service.account.UserAccountService;
-import com.java.boilerplate.infrastructure.controller.transactions.AccountController;
-import com.java.boilerplate.infrastructure.controller.transactions.dto.response.UserTransactionResponse;
 import com.java.boilerplate.mock.UserTransactionMock;
 import com.java.boilerplate.mock.UserTransactionResponseMock;
 import com.java.boilerplate.mock.UserTransferRequestMock;

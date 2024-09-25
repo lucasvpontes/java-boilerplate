@@ -1,7 +1,7 @@
-package com.java.boilerplate.infrastructure.controller.transactions;
+package com.java.boilerplate.infrastructure.controller;
 
 import com.java.boilerplate.core.domain.service.account.UserAccountService;
-import com.java.boilerplate.infrastructure.controller.transactions.dto.response.UserTransactionResponse;
+import com.java.boilerplate.infrastructure.controller.dto.response.UserTransactionResponse;
 import com.java.boilerplate.infrastructure.dto.request.UserTransferRequest;
 import com.java.boilerplate.infrastructure.util.MapperUtils;
 import lombok.RequiredArgsConstructor;

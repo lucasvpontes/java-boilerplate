@@ -2,6 +2,7 @@ package com.java.boilerplate.core.domain.service.account;
 
 import com.java.boilerplate.core.domain.UserAccount;
 import com.java.boilerplate.core.domain.UserTransaction;
+import com.java.boilerplate.infrastructure.dao.account.UserAccountDao;
 import com.java.boilerplate.infrastructure.dto.request.UserTransferRequest;
 import java.math.BigDecimal;
 import java.util.Set;
@@ -13,11 +14,13 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @RequiredArgsConstructor
 public class UserAccountServiceImpl implements UserAccountService {
+
+  private final UserAccountDao userAccountDao;
+
   @Override
   public Set<UserTransaction> getUserTransactions(String userId) {
     // search for user
-
-    return getUserAccount().getUserTransactions();
+    return userAccountDao.getTransactionsByReceiverId(userId);
   }
 
   @Override

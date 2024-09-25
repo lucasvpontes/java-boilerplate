@@ -1,12 +1,10 @@
 package com.java.boilerplate.mock;
 
-import com.java.boilerplate.core.domain.UserTransaction;
-import com.java.boilerplate.infrastructure.controller.transactions.dto.response.UserTransactionResponse;
+import com.java.boilerplate.infrastructure.controller.dto.response.UserTransactionResponse;
 import lombok.experimental.UtilityClass;
 
 import java.math.BigDecimal;
 import java.util.Set;
-import java.util.UUID;
 
 @UtilityClass
 public class UserTransactionResponseMock {

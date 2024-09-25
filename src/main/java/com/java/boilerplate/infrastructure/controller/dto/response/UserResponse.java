@@ -1,4 +1,4 @@
-package com.java.boilerplate.infrastructure.controller.transactions.dto.response;
+package com.java.boilerplate.infrastructure.controller.dto.response;
 
 import java.util.Set;
 import lombok.Builder;
