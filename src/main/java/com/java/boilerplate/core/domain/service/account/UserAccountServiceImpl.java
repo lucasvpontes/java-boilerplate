@@ -25,7 +25,6 @@ public class UserAccountServiceImpl implements UserAccountService {
 
   @Override
   public BigDecimal getBalance(String userId) {
-    // get balance
     return getUserAccount().getBalance();
   }
 
