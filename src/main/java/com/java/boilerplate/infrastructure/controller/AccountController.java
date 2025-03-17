@@ -1,6 +1,6 @@
 package com.java.boilerplate.infrastructure.controller;
 
-import com.java.boilerplate.core.domain.service.account.UserAccountService;
+import com.java.boilerplate.core.service.account.UserAccountService;
 import com.java.boilerplate.infrastructure.controller.dto.response.UserTransactionResponse;
 import com.java.boilerplate.infrastructure.dto.request.UserTransferRequest;
 import com.java.boilerplate.infrastructure.util.MapperUtils;

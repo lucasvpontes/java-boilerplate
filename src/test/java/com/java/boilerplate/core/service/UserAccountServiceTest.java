@@ -1,11 +1,10 @@
 package com.java.boilerplate.core.service;
 
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.ArgumentMatchers.anyString;
 
-import com.java.boilerplate.core.domain.UserTransaction;
-import com.java.boilerplate.core.domain.service.account.UserAccountServiceImpl;
+import com.java.boilerplate.core.domain.account.UserTransaction;
+import com.java.boilerplate.core.service.account.UserAccountServiceImpl;
 import com.java.boilerplate.infrastructure.dao.account.UserAccountDao;
 import java.util.Set;
 import org.junit.jupiter.api.Assertions;
@@ -19,7 +18,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.math.BigDecimal;
 
 @ExtendWith(MockitoExtension.class)
-public class UserAccountServiceTest {
+class UserAccountServiceTest {
     @InjectMocks UserAccountServiceImpl accountService;
 
     @Mock UserAccountDao accountDao;

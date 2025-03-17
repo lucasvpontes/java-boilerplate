@@ -1,6 +1,6 @@
 package com.java.boilerplate.mock;
 
-import com.java.boilerplate.core.domain.UserTransaction;
+import com.java.boilerplate.core.domain.account.UserTransaction;
 import lombok.experimental.UtilityClass;
 
 import java.math.BigDecimal;

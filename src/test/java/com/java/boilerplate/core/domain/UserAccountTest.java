@@ -1,5 +1,7 @@
 package com.java.boilerplate.core.domain;
 
+import com.java.boilerplate.core.domain.account.UserAccount;
+import com.java.boilerplate.core.domain.account.UserTransaction;
 import java.math.BigDecimal;
 import java.util.Set;
 import java.util.UUID;
@@ -9,7 +11,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
-public class UserAccountTest {
+class UserAccountTest {
 
   @Test
   public void when_transactionsAreEmpty_should_returnZero() {

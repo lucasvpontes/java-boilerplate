@@ -1,6 +1,6 @@
 package com.java.boilerplate.infrastructure.dao.account;
 
-import com.java.boilerplate.core.domain.UserTransaction;
+import com.java.boilerplate.core.domain.account.UserTransaction;
 
 import java.util.Set;
 

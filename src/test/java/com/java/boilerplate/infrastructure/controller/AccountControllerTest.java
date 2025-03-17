@@ -1,7 +1,7 @@
 package com.java.boilerplate.infrastructure.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.java.boilerplate.core.domain.service.account.UserAccountService;
+import com.java.boilerplate.core.service.account.UserAccountService;
 import com.java.boilerplate.mock.UserTransactionMock;
 import com.java.boilerplate.mock.UserTransactionResponseMock;
 import com.java.boilerplate.mock.UserTransferRequestMock;
@@ -27,7 +27,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 
 
 @ExtendWith(MockitoExtension.class)
-public class AccountControllerTest {
+class AccountControllerTest {
     private MockMvc mockMvc;
     private ObjectMapper objectMapper;
 

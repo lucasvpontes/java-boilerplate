@@ -1,12 +1,11 @@
-package com.java.boilerplate.core.domain.service.account;
+package com.java.boilerplate.core.service.account;
 
-import com.java.boilerplate.core.domain.UserAccount;
-import com.java.boilerplate.core.domain.UserTransaction;
+import com.java.boilerplate.core.domain.account.UserAccount;
+import com.java.boilerplate.core.domain.account.UserTransaction;
 import com.java.boilerplate.infrastructure.dao.account.UserAccountDao;
 import com.java.boilerplate.infrastructure.dto.request.UserTransferRequest;
 import java.math.BigDecimal;
 import java.util.Set;
-import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

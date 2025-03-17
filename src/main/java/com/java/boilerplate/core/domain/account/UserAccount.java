@@ -1,4 +1,4 @@
-package com.java.boilerplate.core.domain;
+package com.java.boilerplate.core.domain.account;
 
 import java.math.BigDecimal;
 import java.util.Objects;

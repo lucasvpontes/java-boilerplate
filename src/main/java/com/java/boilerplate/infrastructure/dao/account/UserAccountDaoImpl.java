@@ -1,12 +1,9 @@
 package com.java.boilerplate.infrastructure.dao.account;
 
-import com.java.boilerplate.core.domain.UserAccount;
-import com.java.boilerplate.core.domain.UserTransaction;
+import com.java.boilerplate.core.domain.account.UserTransaction;
 import com.java.boilerplate.infrastructure.repository.AccountTransactionRepository;
 import com.java.boilerplate.infrastructure.util.MapperUtils;
-import lombok.Builder;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
 import org.springframework.stereotype.Component;
 
 import java.util.Set;
